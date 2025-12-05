@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digvijay Singh - Manual Tester Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f4f4f4;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #fff;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #fff;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+
+        .contact-info {
+            margin-top: 15px;
+            font-size: 0.95em;
+        }
+
+        .contact-info span {
+            margin: 0 15px;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .section {
+            margin-bottom: 35px;
+        }
+
+        .section-title {
+            font-size: 1.8em;
+            color: #667eea;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .overview {
+            font-size: 1.05em;
+            line-height: 1.8;
+            text-align: justify;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .skill-category {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+
+        .skill-category h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        .skill-category ul {
+            list-style: none;
+        }
+
+        .skill-category li {
+            padding: 5px 0;
+            position: relative;
+            padding-left: 20px;
+        }
+
+        .skill-category li:before {
+            content: "▹";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
+        }
+
+        .project {
+            background: #f8f9fa;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #764ba2;
+        }
+
+        .project h3 {
+            color: #764ba2;
+            margin-bottom: 10px;
+            font-size: 1.3em;
+        }
+
+        .project-meta {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+            font-style: italic;
+        }
+
+        .project-desc {
+            margin-bottom: 15px;
+            line-height: 1.7;
+        }
+
+        .project-highlights {
+            margin-top: 10px;
+        }
+
+        .project-highlights h4 {
+            color: #555;
+            margin-bottom: 8px;
+            font-size: 1em;
+        }
+
+        .project-highlights ul {
+            margin-left: 20px;
+        }
+
+        .project-highlights li {
+            margin-bottom: 5px;
+        }
+
+        .experience-item {
+            margin-bottom: 25px;
+        }
+
+        .experience-item h3 {
+            color: #333;
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+
+        .experience-meta {
+            color: #666;
+            font-size: 0.95em;
+            margin-bottom: 10px;
+        }
+
+        .experience-item ul {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        .experience-item li {
+            margin-bottom: 8px;
+        }
+
+        @media print {
+            body {
+                background: #fff;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2em;
+            }
+            .content {
+                padding: 20px;
+            }
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>DIGVIJAY SINGH</h1>
+            <p>Manual QA Tester</p>
+            <div class="contact-info">
+                <span>📧 digvijay.singh@email.com</span>
+                <span>📱 +91-9876543210</span>
+                <span>📍 Ghaziabad, Uttar Pradesh</span>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="section">
+                <h2 class="section-title">Professional Overview</h2>
+                <p class="overview">
+                    Results-driven Manual QA Tester with 3 years of comprehensive experience in software testing and quality assurance within the IT industry. Proven expertise in developing and executing detailed test cases, identifying critical defects, and ensuring software quality across diverse projects. Adept at functional testing, regression testing, integration testing, and user acceptance testing (UAT) methodologies. Strong analytical skills combined with meticulous attention to detail, enabling effective collaboration with cross-functional teams to deliver high-quality software products. Experienced in Agile/Scrum environments with a track record of meeting tight deadlines while maintaining rigorous quality standards. Committed to continuous learning and implementing best practices in software testing to enhance product reliability and user satisfaction.
+                </p>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">Hands-On Tools & Technologies</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Test Management</h3>
+                        <ul>
+                            <li>JIRA</li>
+                            <li>TestRail</li>
+                            <li>Zephyr</li>
+                            <li>Azure DevOps</li>
+                            <li>HP ALM/QC</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Bug Tracking</h3>
+                        <ul>
+                            <li>Bugzilla</li>
+                            <li>MantisBT</li>
+                            <li>Redmine</li>
+                            <li>Trello</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>API Testing</h3>
+                        <ul>
+                            <li>Postman</li>
+                            <li>SoapUI</li>
+                            <li>REST Client</li>
+                            <li>Swagger</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Database Testing</h3>
+                        <ul>
+                            <li>MySQL</li>
+                            <li>PostgreSQL</li>
+                            <li>SQL Server</li>
+                            <li>MongoDB</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Testing Tools</h3>
+                        <ul>
+                            <li>Selenium IDE</li>
+                            <li>BrowserStack</li>
+                            <li>Charles Proxy</li>
+                            <li>Fiddler</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Collaboration</h3>
+                        <ul>
+                            <li>Confluence</li>
+                            <li>Slack</li>
+                            <li>Microsoft Teams</li>
+                            <li>Git/GitHub</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">Professional Experience</h2>
+                <div class="experience-item">
+                    <h3>Manual QA Tester</h3>
+                    <p class="experience-meta">IT Services Company | June 2022 - Present</p>
+                    <ul>
+                        <li>Execute comprehensive test cases for web and mobile applications across multiple projects</li>
+                        <li>Collaborate with development teams in Agile sprints to identify and resolve defects efficiently</li>
+                        <li>Create detailed test documentation including test plans, test cases, and test reports</li>
+                        <li>Perform functional, regression, integration, and UAT testing to ensure product quality</li>
+                        <li>Utilize JIRA and TestRail for test management and defect tracking activities</li>
+                        <li>Conduct API testing using Postman and validate backend functionality</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">Project Portfolio</h2>
+                
+                <div class="project">
+                    <h3>E-Commerce Platform Testing</h3>
+                    <p class="project-meta">Duration: 8 months | Domain: Retail & E-Commerce</p>
+                    <p class="project-desc">
+                        Comprehensive testing of a large-scale e-commerce web application with integrated payment gateway, inventory management, and customer relationship features. The platform handled over 50,000 daily transactions with multiple user roles including customers, vendors, and administrators.
+                    </p>
+                    <div class="project-highlights">
+                        <h4>Key Responsibilities & Achievements:</h4>
+                        <ul>
+                            <li>Designed and executed 500+ test cases covering end-to-end user workflows including registration, product search, checkout, and payment processing</li>
+                            <li>Performed cross-browser testing across Chrome, Firefox, Safari, and Edge to ensure consistent user experience</li>
+                            <li>Conducted payment gateway integration testing with multiple payment methods (Credit Card, UPI, Wallets)</li>
+                            <li>Identified and reported 150+ defects with detailed reproduction steps, resulting in 95% defect resolution rate</li>
+                            <li>Collaborated with development team to validate bug fixes and performed regression testing for each release</li>
+                            <li>Utilized JIRA for defect tracking and TestRail for test case management</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <h3>Healthcare Management System</h3>
+                    <p class="project-meta">Duration: 6 months | Domain: Healthcare</p>
+                    <p class="project-desc">
+                        Testing of a comprehensive hospital management system featuring patient registration, appointment scheduling, electronic medical records (EMR), billing, and pharmacy management modules. The system required strict compliance with healthcare data privacy regulations.
+                    </p>
+                    <div class="project-highlights">
+                        <h4>Key Responsibilities & Achievements:</h4>
+                        <ul>
+                            <li>Created detailed test scenarios for patient management, doctor scheduling, and billing modules</li>
+                            <li>Performed database testing using MySQL to validate data integrity and complex queries</li>
+                            <li>Conducted security testing to ensure HIPAA compliance and patient data protection</li>
+                            <li>Executed API testing using Postman for RESTful services connecting front-end with backend systems</li>
+                            <li>Performed user acceptance testing (UAT) with healthcare professionals to gather feedback</li>
+                            <li>Documented 80+ critical and high-priority defects related to data accuracy and system functionality</li>
+                            <li>Achieved 98% test coverage across all functional modules before production deployment</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <h3>Banking Mobile Application</h3>
+                    <p class="project-meta">Duration: 5 months | Domain: Financial Services</p>
+                    <p class="project-desc">
+                        Quality assurance testing for a mobile banking application supporting iOS and Android platforms. The app provided features including account management, fund transfers, bill payments, loan applications, and customer support chat functionality.
+                    </p>
+                    <div class="project-highlights">
+                        <h4>Key Responsibilities & Achievements:</h4>
+                        <ul>
+                            <li>Executed mobile testing across multiple devices (iOS 14-17, Android 10-14) and screen resolutions</li>
+                            <li>Performed functionality testing for critical banking operations including transactions, balance inquiries, and statement downloads</li>
+                            <li>Conducted thorough security testing for authentication, authorization, and data encryption</li>
+                            <li>Validated biometric authentication (Face ID, Fingerprint) and OTP verification mechanisms</li>
+                            <li>Tested offline functionality and synchronization when network connectivity is restored</li>
+                            <li>Used Charles Proxy to monitor and test API calls between mobile app and backend services</li>
+                            <li>Identified and reported 120+ defects including UI inconsistencies, crash issues, and functional bugs</li>
+                            <li>Participated in Agile ceremonies and provided daily status updates on testing progress</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">Core Competencies</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Testing Types</h3>
+                        <ul>
+                            <li>Functional Testing</li>
+                            <li>Regression Testing</li>
+                            <li>Integration Testing</li>
+                            <li>UAT Testing</li>
+                            <li>Smoke & Sanity Testing</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Methodologies</h3>
+                        <ul>
+                            <li>Agile/Scrum</li>
+                            <li>Waterfall</li>
+                            <li>SDLC</li>
+                            <li>STLC</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Documentation</h3>
+                        <ul>
+                            <li>Test Plans</li>
+                            <li>Test Cases</li>
+                            <li>Bug Reports</li>
+                            <li>Test Summary Reports</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Soft Skills</h3>
+                        <ul>
+                            <li>Team Collaboration</li>
+                            <li>Communication</li>
+                            <li>Problem Solving</li>
+                            <li>Time Management</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">Education</h2>
+                <div class="experience-item">
+                    <h3>Bachelor of Technology in Computer Science</h3>
+                    <p class="experience-meta">University Name | 2018 - 2022</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
